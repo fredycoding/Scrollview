@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.adidas.scrollview.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="vertical">
+            <ListView
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/milista" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="La escritura Cuando los sistemas de escritura fueron inventados en las antiguas civilizaciones, el hombre utilizó diversos soportes de escritura: tablillas de arcilla, ostracon, placas de hueso o marfil, tablas de madera, papiros, tablillas enceradas, planchas de plomo, pieles curtidas, etc.  La escritura fue el resultado de un proceso lento de evolución con diversos pasos: imágenes que reproducían objetos cotidianos (pictografía); representación mediante símbolos (ideografía); y la reproducción de sílabas y letras.  Los más antiguos vestigios de escritura se encuentran, hacia finales del IV milenio a. C., en el Antiguo Egipto, con jeroglíficos, y la antigua Mesopotamia, mediante signos cuneiformes (escritura cuneiforme; utilizaban una varilla con sección triangular, que al hendir en placas de arcilla, dejaba una marca en forma de cuña). La usaron los sumerios, acadios, asirios, hititas, persas, babilonios etc. La escritura egipcia, que perduró más de tres milenios, mediante jeroglíficos, representaba ideas abstractas, objetos, palabras, sílabas, letras y números. Evolucionó en las escrituras hierática y demótica. Otros pueblos, como los hititas y los aztecas también tuvieron tipos propios de escritura.  China La escritura china más antigua que se conoce son 50000 inscripciones sobre conchas de tortuga que incorporan 4500 caracteres distintos, y data del 1400 a. C. en el yacimiento de Xiaotun, en la provincia de Henan. Pero los primeros libros reconocibles de China corresponden al siglo VI a. C., los jiance o jiandu, rollos de finas tiras de bambú o madera grabados con tinta indeleble y atados con cordel. Estos textos servían principalmente a causas institucionales , era la obra de funcionarios civiles o militares.3​  Desde Confucio en adelante (551-479 a. C.) los libros se convirtieron en importantes instrumentos de aprendizaje, se escribieron tratados de filosofía, medicina, astronomía y cartografía.  En el período de los reinos combatientes (475-221 a. C.) La seda se usó mucho como soporte para escribir. La tela era ligera, resistente al clima húmedo, absorbía bien la tinta y proporcionaba al texto un fondo blanco, sin embargo era mucho más cara que el bambú, es por esto que en ocasiones se hacía una copia en bambú antes de grabarse en seda los textos importantes.  La invención del papel según la tradición china, se atribuye a un eunuco de la corte imperial llamado Cai Lin en el 105 d. C. Usando nuevos ingredientes (trapos viejos, cáñamo, corteza de árbol y redes de pescar) creó un método de fabricación de papel muy similar al que se usa hoy en día. Pero el papel tardó cientos de años en reemplazar al bambú y la seda, fue hasta finales del siglo II d. C. que la corte imperial lo usó en cantidades importantes.  Esta innovación no se propagó fuera de China hasta el 610 d. C. aproximadamente, y alcanzó Europa a través de España hasta el siglo XII.  A mediados del siglo VIII los chinos inventaron la impresión xilográfica, o el grabado en madera, y la necesidad de reproducir un gran número de textos e imágenes budistas, calendarios, manuales de adivinación y diccionarios promovió una rápida y temprana propagación de la xilografía. El primer libro impreso chino que se ha encontrado es el Sutra del diamante del 868 d. C.  Los impresores chinos crearon los tipos móviles hacia el siglo XI, el escritor chino Ch'en Kua (1030-1095) narra la historia de esta invención en su libro de cosas vistas y oídas (Mengshi Pitan), según el escritor el herrero JenTsung de la dinastía de los Song del norte entre 1041-1049 logró crear caracteres móviles, para esto utilizó arcilla endurecida al fuego sobre la cual había grabado unos caracteres móviles que fijo sobre una plancha de hierro impregnada de resina de pino, cera y cenizas. También se le atribuye la creación de una mesa giratoria para guardar los caracteres, esta técnica se llamaba tipografía tablearia. Hacia el 1300 Wang- Tcheng, un técnico agrónomo, emplazó la arcilla por madera de azufaifo, que era mucho más dura. Pero este avance no revolucionó la imprenta hasta el punto que lo hizo Gutenberg en Europa 400 años después. A diferencia de las lenguas europeas, el chino escrito requiere miles de caracteres únicos, lo que hace mucho más eficaz los bloques de madera individuales que los enormes conjuntos de tipos reutilizables. En contraste con el declive de las artes de los escribas en occidente en los siglos que siguieron a la creación de la imprenta de tipos móviles, la caligrafía china conservó su prestigio, era un arte. No obstante, a finales del siglo XV, China había producido más libros que el resto del mundo junto."
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
